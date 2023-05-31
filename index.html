@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/icono.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="img/logo.png">
+        </div>
+        Proyecto encriptador - Challenge One
+    </header>
+    <main>
+        <section>
+            <div class="capturado">
+                <textarea class="texto-capturado" cols="30" rows="10" placeholder="Ingrese el texto"></textarea>
+
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="botonEncriptado()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="botonDesencriptado()">Desencriptar</button>
+                </div>
+
+                <span class="msj-informacion">
+                    Solo ingrese letras minusculas y sin acento.
+                </span>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="texto-mostrado" rows="1" cols="30" placeholder="No se encontro ningun texto"></textarea>
+            <div>
+                <button class="btn-copiar" onclick="botonCopiado()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img class="icono" src="img/icono.png" width="50px">
+        Autor: Laura Cristina Salvador Navarrete
+        <br>
+        <a href="mailto:lauracsnavarrete@gmail.com"> lauracsnavarrete@gmail.com</a>
+    </footer>
+
+    <script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+* {
+    background: #e3e8fb;
+    font-family: 'Playfair';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin: 15px 20px;
+    box-shadow: 5px 5px;
+}
+
+.logo img {
+    width: 100px;
+    padding-left: 30px;
+}
+
+
+main {
+    height: 500px;
+    display: flex;
+    margin: 10px 20%;
+}
+
+.capturado {
+    display: grid;
+}
+
+.texto-capturado {
+    height: 300px;
+    border: none;
+    border-radius: 24px 0;
+    box-shadow: 5px 2px;
+    background-color: #caabd5cf;
+    color: #0A3871;
+    margin: 30px 10px;
+    padding: 12px;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+.texto-capturado:focus {
+    outline: none;
+}
+
+.botones {
+    display: block;
+    vertical-align: middle;
+}
+
+.botones .btn-encriptar {
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.msj-informacion {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.texto-mostrado {
+    height: 430px;
+    background: rgba(255, 255, 255, 0.601);
+    background-image: url("img/nofound.png");
+    background-size: 70%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    box-shadow: 5px 2px;
+}
+
+.texto-mostrado:focus {
+    outline: none;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 45px;
+    margin-left: 110px;
+    margin-top: 380px;
+    position: absolute;
+    width: 300px;
+}
+
+footer {
+    align-content: center;
+    padding-bottom: 20px;
+    text-align: center;
+}
